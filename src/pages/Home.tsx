@@ -31,13 +31,13 @@ const Home = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="btn-primary">
+            <Button asChild size="lg" variant="primary" className="shadow-2xl">
               <Link to="/subjects">
                 Browse Subjects
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="btn-secondary">
+            <Button asChild variant="ios" size="lg" className="shadow-lg">
               <Link to="/upload">
                 Upload Resource
               </Link>
